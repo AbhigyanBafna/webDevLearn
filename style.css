@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@media only screen and (max-width: 755px) {
+  .navList{
+    display: none;
+  }
+
+  nav{
+    min-width: 150vw;
+  }
+
+  .iSpace{
+    height: 81.31rem;
+  }
+
+  .mainSection{
+    transform: scale(150%);
+    min-width: 120vw;
+  }
+
+  .mdList{
+    transform: scale(60%);
+    margin-top: -10.5rem;
+    margin-left: 17rem;
+  }
+  .signup{
+    transform: scale(55%);
+    margin-top: 13.5rem;
+    margin-right: 2rem;
+  }
+  .phone{
+    transform: scale(55%);
+    margin-left: 11rem;
+    margin-top: -7rem;
+  }
+
+  .footer{
+    transform: translateY(10rem);
+    min-width: 150vw;
+  }
+
+  .footertext{
+    transform: translateX(-3rem);
+  }
+
+  .footertext2{
+    transform: translateX(3.5rem);
+  }
+}
+
+@media only screen and (max-width: 360px) {
+
+  .navList{
+    display: none;
+  }
+
+  nav{
+    min-width: 200vw;
+  }
+
+  .mainSection{
+    min-width: 160vw;
+  }
+
+  .mdList{
+    transform: scale(60%);
+    margin-top: -5.5rem;
+    margin-left: 4.25rem;
+  }
+
+  div.signup{
+    background-color: #171111;
+  }
+
+  input{
+    display: none;
+  }
+
+  label{
+    display: none;
+  }
+
+  label.formalities3{
+    color: #171111;
+  }
+
+  label a{
+    display: none;
+  }
+
+  button.button {
+    margin-left: 13rem;
+  }
+
+  .phone{
+    transform: scale(55%);
+    margin-left: 5rem;
+    margin-top: -4rem;
+  }
+
+  footer.footer{
+    min-width: 200vw;
+    bottom: -10rem;
+  }
+
+  .footertext{
+    transform: translateX(-3rem);
+  }
+
+  .footertext2{
+    transform: translateX(3.5rem);
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background: black;
+  position: fixed;
+  height: 5rem;
+  width: 100vw;
+  z-index: 10;
+}
+
+.iSpace{
+  height: 80rem;
+}
+
+
+.navList li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navList li{
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline;
+  padding: 0rem 1.5rem;
+}
+
+.navList{
+  margin-right: 2rem;
+}
+
+.navList li a:hover{
+  color: #26D769;
+}
+
+.logo{
+  cursor: pointer;
+  width: 8.75rem;
+  margin: 0px 4.25rem;
+}
+
+.mainSection{
+  display: flex;
+  background: #171111;
+  position: absolute;
+  top: 5rem;
+  width: 100vw;
+  height: 51rem;
+  z-index: 1;
+}
+
+.phone{
+  position: absolute;
+  left: 5.5%;
+  top: 26%;
+  width : 15rem;
+  z-index: 1;
+}
+
+.mainList{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: 43%;
+  left: 100%;
+  font-size: 2rem;
+  list-style: none;
+  color: white;
+  margin: 0rem;
+  width: 15rem;
+}
+
+.signup{
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+  height: 35.5rem;
+  width: 31rem;
+  border-radius: 5px;
+  position: absolute;
+  top: 15%;
+  right: 7%;
+  padding-left: 3.5rem;
+  padding-right:3.5rem;
+  padding-top: 3rem;
+}
+
+label{
+  font-weight: 700;
+  font-size: 0.7rem;
+  line-height: 1.5rem; 
+  letter-spacing: 0.05em;
+}
+
+label.formalities{
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+label.formalities2{
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 0.7rem;
+  display: block;
+}
+
+label.formalities3{
+  font-size: 0.6rem;
+  text-align: center;
+  display: block;
+}
+
+label a{
+  color:#26D769
+}
+
+button{
+  width: 22.18rem;
+  height: 4.31rem;
+  background: #26D769;
+  border-radius: 40px;
+  border: #26D769;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-left: 4%;
+  margin-right:4%;
+}
+
+input{
+width: 24.5rem;
+height: 3.25rem;
+border: 1px solid #ACACAC;
+border-radius: 0.43rem;
+padding: 1.25rem;
+}
+
+.footer{
+  position: absolute;
+  bottom: -31rem;
+  width: 100vw;
+  height: 24.6rem;
+  background: #000000;
+}
+
+.footlogo{
+  position: absolute;
+  left: 10%;
+  top: 17%;
+  max-width: 8.75rem;
+}
+
+.footertext{
+  position: absolute;
+  display: block;
+  width: 12.5rem;
+  height: 2rem;
+  list-style: none;
+  left: 45%;
+  top: 17%;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 1.68;
+  line-height: 2;
+  letter-spacing: 0.05em;
+  color: white;
+  margin-bottom: 1rem ;
+}
+
+.footertext2{
+  position: absolute;
+  display: block;
+  width: 12.5rem;
+  height: 2rem;
+  list-style: none;
+  right: 12%;
+  top: 17%;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 1.68;
+  line-height: 2;
+  letter-spacing: 0.05em;
+  color: white;
+  margin-bottom: 1rem ;
+}
+
+.footerHead{
+  margin-bottom: 2rem;
+  color: #ACACAC;
+}
+
+li{
+  margin-bottom: 1rem;
+  width: 25;
+  font-size: 1.5rem;
+}
