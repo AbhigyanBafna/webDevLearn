@@ -3,31 +3,43 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, minimum-scale=1">
         <link rel="stylesheet" href="./style.css">
-                    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
         <title>Spotify 💰</title>
-
     </head>
     <body>
         <nav>
-            <img class = "logo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png">
+            <img class = "logo" src="./images/Spotify_Logo_CMYK_White.png">
 
             <ul class = "navList">
-                <li > <a href="#">Premium</a></li>
-                <li > <a href="#">Support</a></li>
-                <li > <a href="#">Download</a></li>
+                <li class = "navItem"> 
+                    <a class = "navLink" href="#">Premium</a>
+                </li>
+                <li class = "navItem"> 
+                    <a class = "navLink" href="#">Support</a>
+                </li>
+                <li class = "navItem"> 
+                    <a class = "navLink" href="#">Download</a>
+                </li>
             </ul>
-
+            <div class="barrier"></div>
+            <div class = "burger">
+                <div class = "line1"></div>
+                <div class = "line2"></div>
+                <div class = "line3"></div>
+            </div>
         </nav>
-        <div class = "iSpace"></div>
+
         <div class = "mainSection">
                 <img class = "phone" src = "./images/Phone.png">
-                <div class = "mdList">
-                    <ul class = "mainList">
-                        <li class = "mainList">Your music.</li>
-                        <li class = "mainList">Your podcasts.</li>
-                        <li class = "mainList">Your Home.</li>
+                <div class = "mList">
+                    <ul class = "mItem">
+                        <li class = "mItem">Your music.</li>
+                        <li class = "mItem">Your podcasts.</li>
+                        <li class = "mItem">Your Home.</li>
                     </ul>
                 </div>
             <div class = "signup">
@@ -66,24 +78,26 @@
         
         <div class = "footer">
             <section id="footerLinks">
-                    <img class = "footlogo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png">
+                    <img class = "footlogo" src="./images/Spotify_Logo_CMYK_White.png">
                 <div>
-                    <ul class = "footertext">
+                    <ul class = "ftext1">
                         <li class = "footerHead">COMPANY</li>
-                        <li>About</li>
-                        <li>Jobs</li>
-                        <li>For the records</li>
+                        <li class = "ftext">About</li>
+                        <li class = "ftext">Jobs</li>
+                        <li class = "ftext">For the records</li>
                     </ul>
                 </div>
                 <div>
-                    <ul class = "footertext2">
+                    <ul class = "ftext2">
                         <li class = "footerHead">USEFUL LINKS</li>
-                        <li>Support</li>
-                        <li>Web Player</li>
-                        <li> Free Mobile App</li>
+                        <li class = "ftext">Support</li>
+                        <li class = "ftext">Web Player</li>
+                        <li class = "ftext"> Free Mobile App</li>
                     </ul> 
                 </div>
                 </section>
         </div>
+        <script src = "/app.js">
+        </script>
     </body>
 </html>
