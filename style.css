@@ -17,8 +17,11 @@ nav{
   align-items: center;
   color: #fff;
   background: black;
-  min-height: 7rem;
+  min-height: 6rem;
+  width: 100%;
   font-family: 'Roboto' , sans-serif;
+  position: fixed;
+  z-index: 40;
 }
 
 .burger{
@@ -31,6 +34,7 @@ nav{
   height:0.25rem;
   background-color: white;
   margin: 7px;
+  transition: all 0.3s ease;
 }
 
 .logo{
@@ -45,6 +49,8 @@ nav{
   display: flex;
   justify-content: space-around;
   width: 30%;
+  position: relative;
+  right:-12rem
 }
 
 .navItem{
@@ -218,6 +224,8 @@ padding: 1.25rem;
   font-size: 1.5rem;
 }
 
+
+
 @media only screen and (max-width: 1340px) {
   .mItem{
     display: none;
@@ -228,7 +236,8 @@ padding: 1.25rem;
   }
 
   .navList{
-    width: 40%;
+    width: 30%;
+    right: -6.5rem;
   }
 }
 
@@ -238,6 +247,7 @@ padding: 1.25rem;
   }
 
   .navList{
+    right: -1.5rem;
     width: 40%;
   }
 }
@@ -292,22 +302,49 @@ padding: 1.25rem;
 
   .navList{
     position:absolute;
-    overflow: clip;
     top: 6rem;
     right: 0rem;
     z-index: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20rem;
-    width: 50%;
-    background-color: #000000;
+    height: 15rem;
+    width: 100%;
     transform: translateX(100%);
-    transition: transform 0.5s ease-in;
+    opacity: 0.45;
+    transition: 0.5s ease-in;
+
+    background-image: linear-gradient(
+    50deg,
+    hsl(143deg 70% 50%) 0%,
+    hsl(128deg 100% 24%) 18%,
+    hsl(120deg 100% 8%) 27%,
+    hsl(339deg 0% 0%) 34%,
+    hsl(339deg 0% 0%) 45%,
+    hsl(339deg 0% 0%) 50%,
+    hsl(339deg 0% 0%) 61%,
+    hsl(339deg 0% 0%) 68%,
+    hsl(339deg 0% 0%) 79%,
+    hsl(0deg 0% 0%) 100%
+  );
+  
   }
 
   .nav-active{
     transform: translateX(0%);
+    opacity: 1;
+  }
+
+  .toggle .line1{
+    transform: rotate(-45deg) translate(-10px,6px);
+  }
+
+  .toggle .line2{
+    opacity: 0;
+  }
+
+  .toggle .line3{
+    transform: rotate(45deg) translate(-10px,-6px);
   }
 
   .navList .navItem{
@@ -331,7 +368,7 @@ padding: 1.25rem;
     display:block;
     position: relative;
     left: 13rem;
-    top: 6rem;
+    top: 8.5rem;
   }
 
   .mList{
@@ -340,16 +377,16 @@ padding: 1.25rem;
 
   .phone{
     width: 12.5rem;
-    top: 3rem;
+    top: 10rem;
     left: 5.5rem;
   }
 
   .mainSection{
-    height: 60rem;
+    height: 65rem;
   }
 
   .signup{
-    top: 25rem;
+    top: 30.5rem;
     transform: scale(75%);
     right: 8rem;
   }
@@ -370,6 +407,10 @@ padding: 1.25rem;
 
 @media only screen and (max-width: 680px) {
 
+  .burger{
+    transform: scale(90%);
+  }
+
   .mItem{
     left: 11rem;
     font-size: 1.65rem;
@@ -377,14 +418,18 @@ padding: 1.25rem;
 
   .phone{
     width: 10.5rem;
-    top: 5rem;
+    top: 10rem;
     left: 7rem;
   }
 
   .signup{
-    top: 25rem;
+    top: 28rem;
     transform: scale(70%);
     right: 3.75rem;
+  }
+
+  .mainSection{
+    height: 62rem;
   }
 
   .footlogo{
@@ -408,24 +453,28 @@ padding: 1.25rem;
 
 @media only screen and (max-width: 562px) {
 
+  .burger{
+    transform: scale(80%);
+  }
+
   .mItem{
     left: 8.5rem;
     font-size: 1.35rem;
-    top: 4.5rem;
+    top: 8.5rem;
   }
 
   .phone{
     width: 9.5rem;
-    top: 3rem;
+    top: 10rem;
     left: 3rem;
   }
 
   .mainSection{
-    height: 45rem;
+    height: 55rem;
   }
 
   .signup{
-    top: 14.5rem;
+    top: 22.5rem;
     transform: scale(57%);
     right: -2.5rem;
   }
@@ -458,28 +507,28 @@ padding: 1.25rem;
 @media only screen and (max-width: 442px) {
 
   .burger{
-    transform: scale(90%);
+    transform: scale(70%);
   }
 
   .mItem{
     left: 6rem;
     font-size: 0.9rem;
-    top: 3rem;
+    top: 7.5rem;
   }
 
   .phone{
     width: 6rem;
-    top: 2rem;
+    top: 10rem;
     left: 5rem;
   }
 
   .mainSection{
-    height: 33rem;
+    height: 40rem;
   }
 
   .signup{
-    top: 4.5rem;
-    transform: scale(40%);
+    top: 12.5rem;
+    transform: scale(44%);
     right: -4.5rem;
   }
 
@@ -493,5 +542,46 @@ padding: 1.25rem;
     top: 7.5rem;
     right: -0.5rem;
     transform: scale(45%);
+  }
+}
+
+@media only screen and (max-width: 342px) {
+
+  .burger{
+    transform: scale(60%);
+  }
+
+  .mItem{
+    top: 7rem;
+    font-size: 0.8rem;
+    left: 3.75rem;
+  }
+
+  .phone{
+    width: 4.5rem;
+    top: 10rem;
+    left: 2.5rem;
+  }
+
+  .mainSection{
+    height: 37rem;
+  }
+
+  .signup{
+    top: 10.5rem;
+    transform: scale(35%);
+    right: -8.5rem;
+  }
+
+  .ftext1{
+    top: 7.5rem;
+    left: -1.5rem;
+    transform: scale(38%);
+  }
+
+  .ftext2{
+    top: 7.5rem;
+    right: -1.5rem;
+    transform: scale(38%);
   }
 }
