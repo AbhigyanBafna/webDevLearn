@@ -12,9 +12,12 @@ let transactions = localStorage.getItem('transactions') !== null ? localStorageT
 //Add Transaction
 function addTransaction(e){
     e.preventDefault();
-    if(details.value.trim() === '' || amount.value.trim === '') {
-      alert("Please Enter Details and Amount");
-    } else {
+    if(details.value.trim() === ''){
+      alert("Please Enter Details");
+    }else if(amount.value.trim() === ''){
+      alert("Please Enter Amount");
+    }
+    else {
       const transaction = {
         id: generateID(),
         details: details.value,
