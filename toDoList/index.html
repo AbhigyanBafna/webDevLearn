@@ -7,10 +7,19 @@
     <link rel="icon" href="../images/ABfavicon.ico">
     <title>Expense Tracker</title>
     <link rel = "stylesheet" href = "style.css"> 
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2 /css/boxicons.min.css' >
 </head>
-<body>
-    <h1>Expense Tracker</h1>
+<body class="light">
+    
+    <input type="checkbox" id="toggle">
+    <label class = "toggle" for="toggle">
+        <i class = "bx bxs-sun"></i>
+        <i class = "bx bx-moon"></i>
+        <span class="ball"></span>
+    </label>
+
     <div class = "mainCont">
+        <h1>Expense Tracker</h1>
         <h2>Your Balance</h2>
         <p id = "balance">₹00.00</p>
 
@@ -31,8 +40,7 @@
         <div class="histCont">
             <h3>History</h3>
             <ul id = "allRecs">
-                <li class="recDebit">
-                </li>
+                <li class="recDebit"></li> //
             </ul>
         </div>
 

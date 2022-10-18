@@ -5,6 +5,16 @@ const allRecs = document.getElementById("allRecs");
 const form = document.getElementById("form");
 const details = document.getElementById("details");
 const amount = document.getElementById("amount");
+const body = document.querySelector("body");
+const toggle =document.querySelector("#toggle");
+const sunIcon = document.querySelector(".toggle .bxs-sun");
+const moonIcon = document.querySelector(".toggle .bx-moon");
+
+toggle.addEventListener("change", () => {
+  body.classList.toggle("dark");
+  sunIcon.className = sunIcon.className == "bx bxs-sun" ? "bx bx-sun" : "bx bxs-sun";
+  moonIcon.className = moonIcon.className == "bx bxs-moon" ? "bx bxs-moon" : "bx bx-moon";
+});
 
 const localStorageTransactions = JSON.parse(localStorage.getItem('transactions'));
 let transactions = localStorage.getItem('transactions') !== null ? localStorageTransactions : [];
