@@ -7,6 +7,6 @@
 3) Spotify Landing Page : <a href="https://abhigyanbafna.github.io/webDevLearn/spotify">Spotify💰</a>
 4) BootStrap Styled : <A href="https://abhigyanbafna.github.io/webDevLearn/tindog/">Tindog</a>
 5) JS MiniProject : <a href = "https://abhigyanbafna.github.io/webDevLearn/drumKit/">Drum Kit</a>
-6) JS ToDoList : <A href="https://abhigyanbafna.github.io/webDevLearn/toDoList/">Expense Tracker</a>
+6) JS Expense Tracker : <A href="https://abhigyanbafna.github.io/webDevLearn/toDoList/">Expense Tracker</a>
 
 
