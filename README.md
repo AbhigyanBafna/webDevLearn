@@ -8,5 +8,8 @@
 4) BootStrap Styled : <A href="https://abhigyanbafna.github.io/webDevLearn/tindog/">Tindog</a>
 5) JS MiniProject : <a href = "https://abhigyanbafna.github.io/webDevLearn/drumKit/">Drum Kit</a>
 6) JS Project : <A href="https://abhigyanbafna.github.io/webDevLearn/toDoList/">Expense Tracker</a>
+7) JS MiniProject 2 : <A href="https://abhigyanbafna.github.io/webDevLearn/simonGame/">Simon Game</a>
+
+
 
 
