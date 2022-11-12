@@ -6,7 +6,12 @@
 2) CSS Resume : <A href="https://abhigyanbafna.github.io/webDevLearn/personalSite_CSS/">The Styled CV</a>
 3) Spotify Landing Page : <a href="https://abhigyanbafna.github.io/webDevLearn/spotify">Spotify💰</a>
 4) BootStrap Styled : <A href="https://abhigyanbafna.github.io/webDevLearn/tindog/">Tindog</a>
-5) JS MiniProject : <a href = "https://abhigyanbafna.github.io/webDevLearn/drumKit/">Drum Kit</a>
-6) JS Project : <A href="https://abhigyanbafna.github.io/webDevLearn/toDoList/">Expense Tracker</a>
+5) JS MiniProjects -
+    * <a href = "https://abhigyanbafna.github.io/webDevLearn/diceGame/">Dice Game</a> 
+    * <A href="https://abhigyanbafna.github.io/webDevLearn/drumKit/">Drum Kit</a>
+    * <A href="https://abhigyanbafna.github.io/webDevLearn/simonGame/">Simon Game</a>
+7) JS Project : <A href="https://abhigyanbafna.github.io/webDevLearn/toDoList/">Expense Tracker</a>
+
+
 
 
