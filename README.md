@@ -10,8 +10,9 @@
     * <a href = "https://abhigyanbafna.github.io/webDevLearn/diceGame/dice.html">Dice Game</a> 
     * <A href="https://abhigyanbafna.github.io/webDevLearn/drumKit/">Drum Kit</a>
     * <A href="https://abhigyanbafna.github.io/webDevLearn/simonGame/">Simon Game</a> (PC)
-7) JS Project : <A href="https://abhigyanbafna.github.io/webDevLearn/toDoList/">Expense Tracker</a>
-
-
-
-
+6) JS Project : <A href="https://abhigyanbafna.github.io/webDevLearn/toDoList/">Expense Tracker</a>
+7) Weather API : <A href="https://abhigyanbafna.github.io/webDevLearn/toDoList/">Weather API</a>
+8) RESTFUL API : <A href="https://github.com/AbhigyanBafna/webDevLearn/tree/main/wikiAPI">WikiAPI</a> (Local DB)
+9) To Do List : <A href="https://todo.dazeb.studio/">To Do List Website</a> (Slow Server)
+10) Blog Site : <A href="https://blog.dazeb.studio/">Blog Site</a> (Slow Server)
+11) Secrets : <A href="https://github.com/AbhigyanBafna/webDevLearn/tree/main/secrets">Secrets</a> (Local DB)
